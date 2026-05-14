@@ -2,6 +2,7 @@ import g1 from "@/assets/gallery-1.jpg";
 import g2 from "@/assets/gallery-2.jpg";
 import g3 from "@/assets/gallery-3.jpg";
 import g4 from "@/assets/gallery-4.jpg";
+import g5 from "@/assets/gallery-5.jpg";
 import group from "@/assets/group.jpg";
 import paddles from "@/assets/paddles.jpg";
 
@@ -11,7 +12,7 @@ const shots = [
   { src: g3, span: "", alt: "Pickleball over the net" },
   { src: paddles, span: "", alt: "Paddles and balls" },
   { src: g4, span: "md:col-span-2", alt: "Coach demonstrating grip" },
-  { src: group, span: "", alt: "Group lesson" },
+  { src: g5, span: "", alt: "Pickleball court" },
 ];
 
 export function Gallery() {
