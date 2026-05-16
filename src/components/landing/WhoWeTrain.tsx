@@ -1,4 +1,3 @@
-import group from "@/assets/group.jpg";
 import whoWeTrain from "@/assets/who-we-train.jpg";
 
 const players = [
