@@ -42,7 +42,7 @@ export function Hero() {
             alt="Pickleball player mid-swing on a teal and orange court"
             width={1536}
             height={1024}
-            className="relative aspect-[4/5] w-full rounded-3xl border-2 border-ink object-cover shadow-retro md:aspect-[3/4]"
+            className="relative aspect-[4/5] w-full rounded-3xl border-2 border-ink object-cover shadow-retro md:aspect-[3/3]"
           />
           <div className="absolute -bottom-5 -left-5 rotate-[-6deg] rounded-2xl border-2 border-ink bg-cream px-4 py-3 shadow-retro-sm">
             <p className="font-display text-sm font-bold">May 16 · Sat</p>

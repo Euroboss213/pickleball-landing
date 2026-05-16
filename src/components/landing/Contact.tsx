@@ -11,7 +11,7 @@ export function Contact() {
           Solo or group, novice or intermediate — book the session that fits and we'll see you on court.
         </p>
         <div className="mt-10 flex flex-wrap justify-center gap-4">
-          <a href="mailto:hello@ucpickleball.com" className="rounded-full border-2 border-ink bg-cream px-7 py-3.5 font-bold text-ink shadow-retro transition hover:translate-x-[-2px] hover:translate-y-[-2px]">
+          <a href="mailto:jerrualen@gmail.com" className="rounded-full border-2 border-ink bg-cream px-7 py-3.5 font-bold text-ink shadow-retro transition hover:translate-x-[-2px] hover:translate-y-[-2px]">
             Send a message
           </a>
           <a href="#sessions" className="rounded-full border-2 border-ink bg-teal px-7 py-3.5 font-bold text-cream shadow-retro transition hover:translate-x-[-2px] hover:translate-y-[-2px]">

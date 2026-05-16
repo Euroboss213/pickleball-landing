@@ -1,4 +1,5 @@
 import group from "@/assets/group.jpg";
+import whoWeTrain from "@/assets/who-we-train.jpg";
 
 const players = [
   { tag: "Level 01", title: "Beginners", desc: "Zero knowledge about pickleball — we'll start from the very first dink.", color: "bg-yellow" },
@@ -34,7 +35,7 @@ export function WhoWeTrain() {
         </div>
 
         <div className="mt-16 overflow-hidden rounded-3xl border-2 border-ink shadow-retro">
-          <img src={group} alt="Group pickleball lesson" width={1280} height={896} loading="lazy" className="h-72 w-full object-cover md:h-96" />
+          <img src={whoWeTrain} alt="Group pickleball lesson" width={1280} height={896} loading="lazy" className="h-72 w-full object-cover object-[center_40%] md:h-110" />
         </div>
       </div>
     </section>

@@ -3,15 +3,14 @@ import g2 from "@/assets/gallery-2.jpg";
 import g3 from "@/assets/gallery-3.jpg";
 import g4 from "@/assets/gallery-4.jpg";
 import g5 from "@/assets/gallery-5.jpg";
-import group from "@/assets/group.jpg";
 import paddles from "@/assets/paddles.jpg";
 
 const shots = [
-  { src: g1, span: "md:col-span-2 md:row-span-2", alt: "Player diving for return" },
+  { src: g1, span: "md:col-span-2 md:row-span-2", alt: "Player diving for return", position: "object-[center_35%]" },
   { src: g2, span: "", alt: "Group celebrating after match" },
   { src: g3, span: "", alt: "Pickleball over the net" },
   { src: paddles, span: "", alt: "Paddles and balls" },
-  { src: g4, span: "md:col-span-2", alt: "Coach demonstrating grip" },
+  { src: g4, span: "md:col-span-2", alt: "Coach demonstrating grip", position: "object-[center_40%]" },
   { src: g5, span: "", alt: "Pickleball court" },
 ];
 
@@ -37,7 +36,7 @@ export function Gallery() {
                 src={s.src}
                 alt={s.alt}
                 loading="lazy"
-                className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                className={`h-full w-full object-cover transition duration-500 group-hover:scale-105 ${s.position || 'object-center'}`}
               />
             </div>
           ))}
